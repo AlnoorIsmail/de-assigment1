@@ -1,0 +1,14 @@
+order_status,count
+shipped,198
+delivered,180
+canceled,103
+unavailable,98
+invoiced,50
+processing,45
+not_reported,24
+  SHIPPED ,7
+  UNAVAILABLE ,4
+  CANCELED ,2
+created,1
+  INVOICED ,1
+approved,1

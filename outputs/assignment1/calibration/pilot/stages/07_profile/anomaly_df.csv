@@ -1,0 +1,6 @@
+Anomaly Check,Count
+Negative Basket Price (< 0),39
+Negative Freight Value (< 0),37
+Zero Total Items (== 0),18
+Negative Product Weight (< 0),14
+Negative Payment Value (< 0),91

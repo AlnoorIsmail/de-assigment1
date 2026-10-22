@@ -1,0 +1,28 @@
+customer_state,Total_Orders,Late_Orders,Late_Rate,CI_Lower,CI_Upper,CI_Note,Excess_Late,Vs_National
+ac,3,0.0,0.0,\N,\N,too few events: interval suppressed,-0.2,too few events
+al,8,2.0,0.25,\N,\N,too few events: interval suppressed,1.5,too few events
+am,4,0.0,0.0,\N,\N,too few events: interval suppressed,-0.2,too few events
+ap,1,0.0,0.0,\N,\N,too few events: interval suppressed,-0.1,too few events
+ba,44,5.0,0.11363636363636363,0.04952707589567494,0.23979435148133582,,2.4,not distinguishable
+ce,15,2.0,0.13333333333333333,\N,\N,too few events: interval suppressed,1.1,too few events
+df,23,0.0,0.0,\N,\N,too few events: interval suppressed,-1.4,too few events
+es,24,2.0,0.08333333333333333,\N,\N,too few events: interval suppressed,0.6,too few events
+go,26,1.0,0.038461538461538464,\N,\N,too few events: interval suppressed,-0.5,too few events
+ma,15,4.0,0.26666666666666666,\N,\N,too few events: interval suppressed,3.1,too few events
+mg,171,8.0,0.04678362573099415,0.023893560130576114,0.08958972988736011,,-2.2,not distinguishable
+ms,10,2.0,0.2,\N,\N,too few events: interval suppressed,1.4,too few events
+mt,16,1.0,0.0625,\N,\N,too few events: interval suppressed,0.0,too few events
+pa,11,0.0,0.0,\N,\N,too few events: interval suppressed,-0.7,too few events
+pb,9,1.0,0.1111111111111111,\N,\N,too few events: interval suppressed,0.5,too few events
+pe,24,3.0,0.125,\N,\N,too few events: interval suppressed,1.6,too few events
+pi,5,1.0,0.2,\N,\N,too few events: interval suppressed,0.7,too few events
+pr,70,1.0,0.014285714285714285,\N,\N,too few events: interval suppressed,-3.2,too few events
+rj,191,22.0,0.11518324607329843,0.07730625344216072,0.1682347398570115,,10.6,above national
+rn,8,1.0,0.125,\N,\N,too few events: interval suppressed,0.5,too few events
+ro,4,0.0,0.0,\N,\N,too few events: interval suppressed,-0.2,too few events
+rs,74,5.0,0.06756756756756757,0.029203655548562038,0.14861386104924684,,0.6,not distinguishable
+sc,53,3.0,0.05660377358490566,\N,\N,too few events: interval suppressed,-0.2,too few events
+se,7,2.0,0.2857142857142857,\N,\N,too few events: interval suppressed,1.6,too few events
+sp,623,20.0,0.03210272873194221,0.020875973168938487,0.04906450302153769,,-17.1,below national
+to,5,1.0,0.2,\N,\N,too few events: interval suppressed,0.7,too few events
+unknown,153,8.0,0.05228758169934641,0.02672972900320813,0.09977752417452024,,-1.1,not distinguishable

@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "name": "Relationship",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Orphan rows",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "NULL keys",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Match after trim/lower-case",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Examples",
+      "dtype": "object",
+      "encoding": "json",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One attempted orphan-key recovery check",
+  "row_order": "unchanged from notebook"
+}

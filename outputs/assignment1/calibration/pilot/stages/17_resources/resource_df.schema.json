@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "Step",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Runtime_s",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Peak_traced_MiB",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One measured notebook step; runtime seconds and peak traced MiB",
+  "row_order": "unchanged from notebook"
+}

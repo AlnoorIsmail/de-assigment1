@@ -1,0 +1,7 @@
+customer_state,Total_Orders,Late_Orders,Late_Rate,CI_Lower,CI_Upper,CI_Note,Excess_Late,Vs_National
+rj,191,22.0,0.11518324607329843,0.07730625344216072,0.1682347398570115,,10.6,above national
+rs,74,5.0,0.06756756756756757,0.029203655548562038,0.14861386104924684,,0.6,not distinguishable
+sc,53,3.0,0.05660377358490566,\N,\N,too few events: interval suppressed,-0.2,too few events
+mg,171,8.0,0.04678362573099415,0.023893560130576114,0.08958972988736011,,-2.2,not distinguishable
+sp,623,20.0,0.03210272873194221,0.020875973168938487,0.04906450302153769,,-17.1,below national
+pr,70,1.0,0.014285714285714285,\N,\N,too few events: interval suppressed,-3.2,too few events

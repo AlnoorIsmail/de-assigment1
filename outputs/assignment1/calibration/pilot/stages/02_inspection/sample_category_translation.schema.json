@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "product_category_name",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_category_name_english",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One sampled source record from category_translation",
+  "row_order": "unchanged from notebook"
+}

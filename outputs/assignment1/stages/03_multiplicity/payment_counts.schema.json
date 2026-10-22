@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "total_orders_with_payments",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "avg_payments_per_order",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One multiplicity summary",
+  "row_order": "unchanged from notebook"
+}

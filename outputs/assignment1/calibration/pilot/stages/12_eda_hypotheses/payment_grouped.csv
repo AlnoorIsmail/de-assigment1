@@ -1,0 +1,6 @@
+selected_payment_type,Total_Orders,Late_Orders,Late_Rate,CI_Lower,CI_Upper,CI_Note
+boleto,300,22.0,0.07333333333333333,0.048923631132474436,0.10853209579892667,
+voucher,60,4.0,0.06666666666666667,\N,\N,too few events: interval suppressed
+credit_card,1144,66.0,0.057692307692307696,0.04560292912285419,0.07274231990802255,
+debit_card,29,1.0,0.034482758620689655,\N,\N,too few events: interval suppressed
+unclassified_payment,64,2.0,0.03125,\N,\N,too few events: interval suppressed

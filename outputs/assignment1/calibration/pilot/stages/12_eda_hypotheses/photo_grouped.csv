@@ -1,0 +1,11 @@
+max_product_photos,Total_Orders,Late_Orders,Late_Rate,CI_Lower,CI_Upper,CI_Note
+1,678,41.0,0.06047197640117994,0.04488629967164877,0.0810103895300661,
+2,293,13.0,0.04436860068259386,0.026109587202170548,0.07442079667933393,
+3,181,7.0,0.03867403314917127,0.018857584065879004,0.07766614219487614,
+4,116,3.0,0.02586206896551724,\N,\N,too few events: interval suppressed
+5,78,13.0,0.16666666666666666,0.10006850973163443,0.26455779278444536,
+6,50,4.0,0.08,\N,\N,too few events: interval suppressed
+7,23,2.0,0.08695652173913043,\N,\N,too few events: interval suppressed
+8,13,1.0,0.07692307692307693,\N,\N,too few events: interval suppressed
+9,2,0.0,0.0,\N,\N,too few events: interval suppressed
+10,3,0.0,0.0,\N,\N,too few events: interval suppressed

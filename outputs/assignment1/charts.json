@@ -1,0 +1,79 @@
+[
+  {
+    "stage": "09_eda_delivery",
+    "path": "stages/09_eda_delivery/chart_01.png",
+    "data": [
+      "stages/09_eda_delivery/chart_01_outcomes.csv"
+    ]
+  },
+  {
+    "stage": "09_eda_delivery",
+    "path": "stages/09_eda_delivery/chart_02.png",
+    "data": [
+      "stages/09_eda_delivery/chart_02_delays.csv"
+    ]
+  },
+  {
+    "stage": "10_eda_window",
+    "path": "stages/10_eda_window/chart_01.png",
+    "data": [
+      "stages/10_eda_window/chart_01_window.csv"
+    ]
+  },
+  {
+    "stage": "10_eda_window",
+    "path": "stages/10_eda_window/chart_02.png",
+    "data": [
+      "stages/10_eda_window/window_rates.csv"
+    ]
+  },
+  {
+    "stage": "10_eda_window",
+    "path": "stages/10_eda_window/chart_03.png",
+    "data": [
+      "stages/10_eda_window/chart_02_distributions.csv"
+    ]
+  },
+  {
+    "stage": "11_eda_state",
+    "path": "stages/11_eda_state/chart_01.png",
+    "data": [
+      "stages/11_eda_state/top_problem_states.csv"
+    ]
+  },
+  {
+    "stage": "12_eda_hypotheses",
+    "path": "stages/12_eda_hypotheses/chart_01.png",
+    "data": [
+      "stages/12_eda_hypotheses/chart_01_photos.csv"
+    ]
+  },
+  {
+    "stage": "12_eda_hypotheses",
+    "path": "stages/12_eda_hypotheses/chart_02.png",
+    "data": [
+      "stages/12_eda_hypotheses/payment_grouped.csv"
+    ]
+  },
+  {
+    "stage": "12_eda_hypotheses",
+    "path": "stages/12_eda_hypotheses/chart_03.png",
+    "data": [
+      "stages/12_eda_hypotheses/local_grouped.csv"
+    ]
+  },
+  {
+    "stage": "13_eda_weight",
+    "path": "stages/13_eda_weight/chart_01.png",
+    "data": [
+      "stages/13_eda_weight/scatter_df.csv"
+    ]
+  },
+  {
+    "stage": "14_eda_sellers",
+    "path": "stages/14_eda_sellers/chart_01.png",
+    "data": [
+      "stages/14_eda_sellers/seller_analysis.csv"
+    ]
+  }
+]

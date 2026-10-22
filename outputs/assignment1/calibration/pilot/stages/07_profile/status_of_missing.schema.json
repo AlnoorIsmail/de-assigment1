@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "order_status",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "count",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One order status with missing delivery dates",
+  "row_order": "unchanged from notebook"
+}

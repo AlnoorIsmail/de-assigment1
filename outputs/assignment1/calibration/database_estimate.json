@@ -1,0 +1,12 @@
+{
+  "stage": "00_database",
+  "scale_factor": 8.931161604825803,
+  "calculation_seconds": 0.3659056004317456,
+  "export_seconds": 0.0,
+  "peak_rss_bytes": 271303309.39488816,
+  "peak_temporary_bytes": 9145.509483341622,
+  "saved_bytes": 24327055.225688715,
+  "retained_logical_bytes": 0,
+  "output_logical_bytes": 0,
+  "method": "Seeded INSERT-statement sample, scaled by SQL file bytes; fixed worker baseline kept separate."
+}

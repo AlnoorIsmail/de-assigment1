@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_value",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One raw item with a negative amount, up to five",
+  "row_order": "unchanged from notebook"
+}

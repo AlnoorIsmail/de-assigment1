@@ -1,0 +1,146 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_item_id",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "seller_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "freight_value",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "product_photos_qty",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_state",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "price_invalid",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_invalid",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "invalid_amount",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "destination_state",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "price_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "freight_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "price_imputed",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "price_unresolved",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_imputed",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_unresolved",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "invalid_weight",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "invalid_photos",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "weight_missing",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "photos_missing",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One source item with cleaning flags and cleaned optional attributes",
+  "row_order": "unchanged from notebook"
+}

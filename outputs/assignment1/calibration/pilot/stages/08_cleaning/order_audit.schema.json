@@ -1,0 +1,98 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "anomaly_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "chronology_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "missing_outcome_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "unknown_status_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "contradiction_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "exclusion_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "no_items_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "unresolved_amount_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "feature_eligible_mask",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "retained_clean_record",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "retained_with_label",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "unlabelled",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "exclusion_reason",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "feature_exclusion_reason",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One source order with the original masks and retention decisions",
+  "row_order": "unchanged from notebook"
+}

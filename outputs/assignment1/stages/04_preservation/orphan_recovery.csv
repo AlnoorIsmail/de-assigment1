@@ -1,0 +1,4 @@
+Relationship,Orphan rows,NULL keys,Match after trim/lower-case,Examples
+orders -> customers,769,0,0,"[""003c6792fafbc2e19f03c082778970e9"", ""00530bfb7e2f1c7230450064a01e88df""]"
+order_items -> products,910,0,0,"[""000791ffc51ec26cd0c6d27db58befaf"", ""000d51a77590efb6a5d41f83e5c1dfac""]"
+order_items -> sellers,893,0,0,"[""00361ecfab1fee184a3f386ed5027c7b"", ""013fb2c1993f89dd838e76fa85fd07cb""]"

@@ -1,0 +1,32 @@
+{
+  "columns": [
+    {
+      "name": "source_orders",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "source_item_rows",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "source_price_sum",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "source_freight_sum",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One set of source totals recorded before assembly",
+  "row_order": "unchanged from notebook"
+}

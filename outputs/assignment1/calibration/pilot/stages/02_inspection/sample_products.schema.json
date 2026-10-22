@@ -1,0 +1,62 @@
+{
+  "columns": [
+    {
+      "name": "product_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_category_name",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_name_lenght",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_description_lenght",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_photos_qty",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_length_cm",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_height_cm",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_width_cm",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One sampled source record from products",
+  "row_order": "unchanged from notebook"
+}

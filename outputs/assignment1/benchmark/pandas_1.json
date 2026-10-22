@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 3.8523480409639888,
+  "start_rss_bytes": 72777728,
+  "peak_rss_bytes": 153960448,
+  "peak_rss_increase_bytes": 81182720,
+  "peak_temporary_bytes": 0,
+  "sampling_overhead_seconds": 2.360080503975041,
+  "sample_interval_seconds": 0.01,
+  "maximum_sample_gap_seconds": 1.2698450419702567,
+  "samples": 35,
+  "approach": "pandas",
+  "rows": 20000,
+  "columns": 25,
+  "logical_output_bytes": 21834492,
+  "equivalent": true
+}

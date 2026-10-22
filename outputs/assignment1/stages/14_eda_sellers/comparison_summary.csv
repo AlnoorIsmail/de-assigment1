@@ -1,0 +1,10 @@
+Comparison,Result,Finding
+Q2 window bands vs overall rate,"5 groups, overall rate 6.8%: 2 wholly above, 2 wholly below, 1 overlapping, 0 too small",gap: rates differ
+Q2 0-7 day window vs longer windows,"0-7 days 17.0% [13.1%, 21.8%], n=282 vs longer 6.6% [6.2%, 7.0%], n=15,347",gap: rates differ
+Q3 customer states (>= 50 orders) vs national rate,"22 groups, overall rate 6.8%: 8 wholly above, 3 wholly below, 10 overlapping, 1 too small",gap: rates differ
+H1 photo bands (1-2 / 3-5 / 6+) vs overall late rate,"3 groups, overall rate 6.8%: 0 wholly above, 0 wholly below, 3 overlapping, 0 too small",overlap: no clear difference
+H1 photo bands vs overall NON-delivery rate (all orders),"3 groups, overall rate 9.8%: 0 wholly above, 0 wholly below, 3 overlapping, 0 too small",overlap: no clear difference
+H2 payment types vs overall late rate,"5 groups, overall rate 6.8%: 0 wholly above, 0 wholly below, 5 overlapping, 0 too small",overlap: no clear difference
+H3 cross-state only vs involves local seller,"cross-state only 8.2% [7.6%, 8.8%], n=8,136 vs local seller 4.8% [4.2%, 5.4%], n=4,748",gap: rates differ
+H5 log weight vs days late (late orders),"Pearson r = 0.063, n = 1,012",r close to zero: no clear relationship
+H4 2 sellers vs 1 seller,"2 sellers 2.6% [1.3%, 5.1%], n=306 vs 1 seller 6.9% [6.5%, 7.3%], n=15,621",gap: rates differ

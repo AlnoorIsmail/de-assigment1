@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "delivered_after_estimate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One labeled order used by the count plot",
+  "row_order": "unchanged from notebook"
+}

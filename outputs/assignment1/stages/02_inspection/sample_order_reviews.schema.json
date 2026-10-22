@@ -1,0 +1,50 @@
+{
+  "columns": [
+    {
+      "name": "review_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "review_score",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "review_comment_title",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "review_comment_message",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "review_creation_date",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "review_answer_timestamp",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One sampled source record from order_reviews",
+  "row_order": "unchanged from notebook"
+}

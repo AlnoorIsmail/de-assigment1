@@ -1,0 +1,32 @@
+{
+  "columns": [
+    {
+      "name": "seller_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "seller_zip_code_prefix",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_city",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "seller_state",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One sampled source record from sellers",
+  "row_order": "unchanged from notebook"
+}

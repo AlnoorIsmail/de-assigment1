@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "delay_days",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One late order used by the delay histogram",
+  "row_order": "unchanged from notebook"
+}

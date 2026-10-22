@@ -1,0 +1,16 @@
+Check,Rows
+orders: NULL order_id,0
+orders: duplicate order_id,0
+customers: NULL customer_id,0
+customers: duplicate customer_id,0
+products: duplicate product_id,0
+sellers: duplicate seller_id,0
+"order_items: duplicate (order_id, order_item_id)",0
+orders -> customers,78
+order_items -> orders,0
+order_items -> products,109
+order_items -> sellers,73
+order_payments -> orders,0
+order_reviews -> orders,0
+customers with no order,0
+products: category not in translation table,116

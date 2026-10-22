@@ -1,0 +1,80 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "invalid_item_amount",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "basket_price_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_freight_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "price_unresolved",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_unresolved",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_weight_missing",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_photos_missing",
+      "dtype": "bool",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "mean_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_photos",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_unique_seller_states",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One order with cleaned item aggregates",
+  "row_order": "unchanged from notebook"
+}

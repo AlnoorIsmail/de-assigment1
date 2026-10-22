@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "approach",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "seconds",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "traced_peak_bytes",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One equivalent benchmark approach; traced Python memory and timings vary",
+  "row_order": "unchanged from notebook"
+}

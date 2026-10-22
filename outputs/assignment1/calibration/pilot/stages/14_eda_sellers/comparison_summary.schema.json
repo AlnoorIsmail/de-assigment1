@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "Comparison",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Result",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Finding",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One Part 3 comparison and its interval-based finding",
+  "row_order": "unchanged from notebook"
+}

@@ -3,3 +3,8 @@ marketplace.sqlite
 .venv/
 __pycache__/
 .ipynb_checkpoints/
+.DS_Store
+outputs/.*.run-*/
+.env
+.env.*
+!.env.example

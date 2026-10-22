@@ -1,0 +1,50 @@
+{
+  "columns": [
+    {
+      "name": "selected_payment_type",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Total_Orders",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Late_Orders",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Late_Rate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "CI_Lower",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "CI_Upper",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "CI_Note",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One alphabetically selected payment type",
+  "row_order": "unchanged from notebook"
+}

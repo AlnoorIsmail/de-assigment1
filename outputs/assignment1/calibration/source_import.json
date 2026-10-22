@@ -1,0 +1,27 @@
+{
+  "elapsed_seconds": 0.04096954199485481,
+  "start_rss_bytes": 26935296,
+  "peak_rss_bytes": 54296576,
+  "peak_rss_increase_bytes": 27361280,
+  "peak_temporary_bytes": 1024,
+  "sampling_overhead_seconds": 0.0014881670358590782,
+  "sample_interval_seconds": 0.01,
+  "maximum_sample_gap_seconds": 0.012902584043331444,
+  "samples": 5,
+  "stage": "00_database",
+  "calculation_seconds": 0.04096954199485481,
+  "export_seconds": 0.0,
+  "inventory_seconds": 0.0,
+  "saved_bytes": 2723840,
+  "input_bytes": 2045007,
+  "source_rows": 14073,
+  "tables": 8,
+  "intermediates": [
+    {
+      "name": "SQL source text",
+      "logical_memory_bytes": 2045007
+    }
+  ],
+  "retained_logical_bytes": 0,
+  "output_logical_bytes": 0
+}

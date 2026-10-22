@@ -1,0 +1,10 @@
+order_status,count
+delivered,20
+shipped,14
+unavailable,12
+canceled,6
+invoiced,6
+processing,6
+not_reported,2
+  SHIPPED ,1
+approved,1

@@ -1,0 +1,32 @@
+{
+  "columns": [
+    {
+      "name": "Amount",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Invalid Original",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Imputed",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Unresolved",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One amount type with invalid, imputed and unresolved item counts",
+  "row_order": "unchanged from notebook"
+}

@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "delivered_after_estimate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "promised_window_days",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One order used by the window box plot",
+  "row_order": "unchanged from notebook"
+}

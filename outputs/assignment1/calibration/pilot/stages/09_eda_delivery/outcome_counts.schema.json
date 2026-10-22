@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "delivered_after_estimate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "count",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One delivery outcome",
+  "row_order": "unchanged from notebook"
+}

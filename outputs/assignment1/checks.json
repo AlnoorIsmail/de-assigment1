@@ -1,0 +1,12 @@
+{
+  "assembled_orders": 20000,
+  "labeled_orders": 15940,
+  "feature_orders": 15505,
+  "features": 53,
+  "record_preservation": true,
+  "aligned_features_labels_ids": true,
+  "final_predictor_columns_pass": true,
+  "finite_features": true,
+  "calendar_labels_and_reliable_outcomes": true,
+  "full_dataset_imputation": true
+}

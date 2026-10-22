@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "table_name",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "rows",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One source table",
+  "row_order": "unchanged from notebook"
+}

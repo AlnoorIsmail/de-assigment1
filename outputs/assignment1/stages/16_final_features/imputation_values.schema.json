@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "feature",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "fill_value",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One feature and its full-dataset imputation value",
+  "row_order": "unchanged from notebook"
+}

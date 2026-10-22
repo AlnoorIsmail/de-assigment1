@@ -1,0 +1,158 @@
+{
+  "columns": [
+    {
+      "name": "total_items",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "basket_price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_freight",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "log_basket_price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "log_freight",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_to_price_ratio",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "mean_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_complexity_ratio",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_sellers",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_seller_states",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_photos",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "involves_local_seller",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "promised_window_days",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "approval_hour",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "is_weekend_approval",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "product_weight_missing",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_photos_missing",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "mean_product_weight_g_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_product_weight_g_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_product_photos_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "involves_local_seller_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "promised_window_days_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "approval_hour_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "is_weekend_approval_missing",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One feature-eligible order; row-aligned with order_ids",
+  "row_order": "unchanged from notebook"
+}

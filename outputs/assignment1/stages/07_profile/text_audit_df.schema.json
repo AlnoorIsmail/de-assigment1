@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "name": "Column",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Raw Unique Count",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Cleaned Unique Count (Strip/Lower)",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Discrepancy (Potential Formatting Issues)",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Sample Values (Raw)",
+      "dtype": "object",
+      "encoding": "json",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One profiled text column",
+  "row_order": "unchanged from notebook"
+}

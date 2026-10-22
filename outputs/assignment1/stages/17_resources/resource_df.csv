@@ -1,0 +1,11 @@
+Step,Runtime_s,Peak_traced_MiB
+1 Assemble (SQL push-down),0.277,34.59
+2 Clean + label,5.219,41.98
+3 EDA Q1,0.653,4.59
+3 EDA Q2,2.32,10.93
+3 EDA Q3,0.509,1.52
+3 EDA hypotheses,0.954,5.53
+3 EDA weight,0.524,4.04
+3 EDA sellers + comparison summary,0.268,0.9
+4 Initial features,0.028,12.11
+4 Final features,0.032,19.59

@@ -1,0 +1,5 @@
+Cleaning Step,Remaining Rows,Dropped Rows
+Initial Loaded Rows,2000,-0.0
+After Requiring Delivered Status,1791,209.0
+After Requiring Outcome Dates,1695,96.0
+Reliable Delivery Labels (consistent chronology),1597,98.0

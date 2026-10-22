@@ -1,0 +1,14 @@
+{
+  "columns": [
+    {
+      "name": "delivered_after_estimate",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One feature-eligible order; X, y, and order_ids are aligned by row position",
+  "row_order": "unchanged from notebook"
+}

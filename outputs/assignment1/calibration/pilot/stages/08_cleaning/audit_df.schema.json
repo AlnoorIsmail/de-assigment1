@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "Cleaning Step",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Remaining Rows",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Dropped Rows",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One delivery-label checkpoint",
+  "row_order": "unchanged from notebook"
+}

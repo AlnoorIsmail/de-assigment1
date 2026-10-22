@@ -1,0 +1,5553 @@
+[
+  {
+    "elapsed_seconds": 0.29421329201431945,
+    "start_rss_bytes": 26443776,
+    "peak_rss_bytes": 212484096,
+    "peak_rss_increase_bytes": 186040320,
+    "peak_temporary_bytes": 1024,
+    "sampling_overhead_seconds": 0.006263209856115282,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.04968108294997364,
+    "samples": 22,
+    "stage": "00_database",
+    "calculation_seconds": 0.29421329201431945,
+    "export_seconds": 0.0,
+    "inventory_seconds": 0.0,
+    "saved_bytes": 24363008,
+    "input_bytes": 18264288,
+    "source_rows": 116981,
+    "tables": 8,
+    "intermediates": [
+      {
+        "name": "SQL source text",
+        "logical_memory_bytes": 18264288
+      }
+    ],
+    "retained_logical_bytes": 0,
+    "output_logical_bytes": 0,
+    "worker_startup_and_protocol_seconds": 0.07904599898029119
+  },
+  {
+    "elapsed_seconds": 37.77072495903121,
+    "start_rss_bytes": 81625088,
+    "peak_rss_bytes": 219447296,
+    "peak_rss_increase_bytes": 137822208,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 4.991635629092343,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 15.026373000000603,
+    "samples": 1445,
+    "stage": "01_setup",
+    "calculation_seconds": 37.77071062504547,
+    "export_seconds": 3.916968125849962e-06,
+    "inventory_seconds": 9.29099041968584e-06,
+    "saved_bytes": 0,
+    "retained_logical_bytes": 0,
+    "output_logical_bytes": 0,
+    "intermediates": []
+  },
+  {
+    "elapsed_seconds": 0.06384349998552352,
+    "start_rss_bytes": 219430912,
+    "peak_rss_bytes": 224395264,
+    "peak_rss_increase_bytes": 4964352,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.017327957844827324,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.02059820800786838,
+    "samples": 5,
+    "stage": "02_inspection",
+    "calculation_seconds": 0.04167000000597909,
+    "export_seconds": 0.022159499989356846,
+    "inventory_seconds": 1.3375014532357454e-05,
+    "saved_bytes": 13135,
+    "retained_logical_bytes": 676,
+    "output_logical_bytes": 19111,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.02226104203145951,
+    "start_rss_bytes": 224378880,
+    "peak_rss_bytes": 227983360,
+    "peak_rss_increase_bytes": 3604480,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.004130125977098942,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.012799125048331916,
+    "samples": 3,
+    "stage": "03_multiplicity",
+    "calculation_seconds": 0.019539292028639466,
+    "export_seconds": 0.002477541973348707,
+    "inventory_seconds": 0.00024395802756771445,
+    "saved_bytes": 947,
+    "retained_logical_bytes": 972,
+    "output_logical_bytes": 296,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.11605354200582951,
+    "start_rss_bytes": 227950592,
+    "peak_rss_bytes": 241401856,
+    "peak_rss_increase_bytes": 13451264,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.02091720694443211,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.01832304202252999,
+    "samples": 9,
+    "stage": "04_preservation",
+    "calculation_seconds": 0.11096199997700751,
+    "export_seconds": 0.00455283303745091,
+    "inventory_seconds": 0.0005379169597290456,
+    "saved_bytes": 2813,
+    "retained_logical_bytes": 83110,
+    "output_logical_bytes": 2360,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.47170758299762383,
+    "start_rss_bytes": 241369088,
+    "peak_rss_bytes": 312311808,
+    "peak_rss_increase_bytes": 70942720,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.21407395706046373,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.06750104197999462,
+    "samples": 21,
+    "stage": "05_assembly",
+    "calculation_seconds": 0.28866391599876806,
+    "export_seconds": 0.1642852920340374,
+    "inventory_seconds": 0.01875791698694229,
+    "saved_bytes": 5474139,
+    "retained_logical_bytes": 21916038,
+    "output_logical_bytes": 21833387,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 16.145593166991603,
+    "start_rss_bytes": 307249152,
+    "peak_rss_bytes": 460914688,
+    "peak_rss_increase_bytes": 153665536,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 15.228860000206623,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 4.729705958045088,
+    "samples": 53,
+    "stage": "06_original_benchmark",
+    "calculation_seconds": 15.75613162497757,
+    "export_seconds": 0.3314007919980213,
+    "inventory_seconds": 0.05806008301442489,
+    "saved_bytes": 10988034,
+    "retained_logical_bytes": 65583458,
+    "output_logical_bytes": 43667707,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 15.410619625006802,
+    "start_rss_bytes": 460881920,
+    "peak_rss_bytes": 465666048,
+    "peak_rss_increase_bytes": 4784128,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 4.620342771115247,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.18633375002536923,
+    "samples": 901,
+    "stage": "07_profile",
+    "calculation_seconds": 0.28892908297711983,
+    "export_seconds": 15.02566729200771,
+    "inventory_seconds": 0.09602216695202515,
+    "saved_bytes": 7005,
+    "retained_logical_bytes": 93354325,
+    "output_logical_bytes": 6036,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 6.097546292003244,
+    "start_rss_bytes": 465633280,
+    "peak_rss_bytes": 519651328,
+    "peak_rss_increase_bytes": 54018048,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 4.924805082089733,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 3.0357482499675825,
+    "samples": 32,
+    "stage": "08_cleaning",
+    "calculation_seconds": 5.233981917030178,
+    "export_seconds": 0.7497020000009798,
+    "inventory_seconds": 0.11386104195844382,
+    "saved_bytes": 21500407,
+    "retained_logical_bytes": 148365325,
+    "output_logical_bytes": 51668595,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 37,
+        "logical_memory_bytes": 15006419
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.9906028340337798,
+    "start_rss_bytes": 519618560,
+    "peak_rss_bytes": 534839296,
+    "peak_rss_increase_bytes": 15220736,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.7513143750838935,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.10262441699160263,
+    "samples": 18,
+    "stage": "09_eda_delivery",
+    "calculation_seconds": 0.4968475420027971,
+    "export_seconds": 0.3818497500033118,
+    "inventory_seconds": 0.11190499999793246,
+    "saved_bytes": 6216285,
+    "retained_logical_bytes": 149547711,
+    "output_logical_bytes": 16923278,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 38,
+        "logical_memory_bytes": 15133939
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 2.7439667920116335,
+    "start_rss_bytes": 534806528,
+    "peak_rss_bytes": 555827200,
+    "peak_rss_increase_bytes": 21020672,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 2.0783630380174145,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.42083641700446606,
+    "samples": 30,
+    "stage": "10_eda_window",
+    "calculation_seconds": 1.8990148740122095,
+    "export_seconds": 0.7170577509677969,
+    "inventory_seconds": 0.12789354095002636,
+    "saved_bytes": 7184978,
+    "retained_logical_bytes": 151324539,
+    "output_logical_bytes": 19844347,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 40,
+        "logical_memory_bytes": 16240050
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.6387267080135643,
+    "start_rss_bytes": 555794432,
+    "peak_rss_bytes": 555909120,
+    "peak_rss_increase_bytes": 114688,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.41685849998611957,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.10857791698072106,
+    "samples": 11,
+    "stage": "11_eda_state",
+    "calculation_seconds": 0.39337683300254866,
+    "export_seconds": 0.13230200001271442,
+    "inventory_seconds": 0.11304725002264604,
+    "saved_bytes": 72297,
+    "retained_logical_bytes": 151341168,
+    "output_logical_bytes": 16093,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 40,
+        "logical_memory_bytes": 16240050
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 1.1269141670200042,
+    "start_rss_bytes": 555876352,
+    "peak_rss_bytes": 555941888,
+    "peak_rss_increase_bytes": 65536,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.7092400430119596,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.12949362496146932,
+    "samples": 19,
+    "stage": "12_eda_hypotheses",
+    "calculation_seconds": 0.7258335840888321,
+    "export_seconds": 0.28488483291585,
+    "inventory_seconds": 0.11619554203934968,
+    "saved_bytes": 119573,
+    "retained_logical_bytes": 152463681,
+    "output_logical_bytes": 5696,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.6536304999608546,
+    "start_rss_bytes": 555909120,
+    "peak_rss_bytes": 556204032,
+    "peak_rss_increase_bytes": 294912,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.5410691260476597,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.2285879590199329,
+    "samples": 8,
+    "stage": "13_eda_weight",
+    "calculation_seconds": 0.321620583999902,
+    "export_seconds": 0.21259137499146163,
+    "inventory_seconds": 0.11941812501754612,
+    "saved_bytes": 113318,
+    "retained_logical_bytes": 154644917,
+    "output_logical_bytes": 114356,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      },
+      {
+        "name": "late_with_weight",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "scatter_df",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.4023055830039084,
+    "start_rss_bytes": 556171264,
+    "peak_rss_bytes": 556220416,
+    "peak_rss_increase_bytes": 49152,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.2901458371197805,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.11017862503649667,
+    "samples": 9,
+    "stage": "14_eda_sellers",
+    "calculation_seconds": 0.2035210839821957,
+    "export_seconds": 0.08150424901396036,
+    "inventory_seconds": 0.11728012497769669,
+    "saved_bytes": 38724,
+    "retained_logical_bytes": 154936449,
+    "output_logical_bytes": 4612,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      },
+      {
+        "name": "late_with_weight",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "scatter_df",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 626
+      },
+      {
+        "name": "one",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "two",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "seller_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 418
+      },
+      {
+        "name": "state_seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 622
+      },
+      {
+        "name": "comparison_summary",
+        "rows": 9,
+        "columns": 3,
+        "logical_memory_bytes": 2946
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.48392012499971315,
+    "start_rss_bytes": 556187648,
+    "peak_rss_bytes": 581009408,
+    "peak_rss_increase_bytes": 24821760,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.3666769580449909,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.11355770798400044,
+    "samples": 10,
+    "stage": "15_initial_features",
+    "calculation_seconds": 0.03437033295631409,
+    "export_seconds": 0.31891745899338275,
+    "inventory_seconds": 0.13063170801615342,
+    "saved_bytes": 6662906,
+    "retained_logical_bytes": 175630533,
+    "output_logical_bytes": 20694084,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      },
+      {
+        "name": "late_with_weight",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "scatter_df",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 626
+      },
+      {
+        "name": "one",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "two",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "seller_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 418
+      },
+      {
+        "name": "state_seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 622
+      },
+      {
+        "name": "comparison_summary",
+        "rows": 9,
+        "columns": 3,
+        "logical_memory_bytes": 2946
+      },
+      {
+        "name": "df_features",
+        "rows": 15505,
+        "columns": 44,
+        "logical_memory_bytes": 17096924
+      },
+      {
+        "name": "df_encoded",
+        "rows": 15505,
+        "columns": 28,
+        "logical_memory_bytes": 3597160
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 1.2268457080353983,
+    "start_rss_bytes": 580976640,
+    "peak_rss_bytes": 626114560,
+    "peak_rss_increase_bytes": 45137920,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.8784687499864958,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.1390816660132259,
+    "samples": 28,
+    "stage": "16_final_features",
+    "calculation_seconds": 0.041066458041314036,
+    "export_seconds": 1.0297975419671275,
+    "inventory_seconds": 0.15598087501712143,
+    "saved_bytes": 16406213,
+    "retained_logical_bytes": 215205326,
+    "output_logical_bytes": 39568245,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "y",
+        "rows": 15505,
+        "columns": 1,
+        "logical_memory_bytes": 248080
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      },
+      {
+        "name": "late_with_weight",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "scatter_df",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 626
+      },
+      {
+        "name": "one",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "two",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "seller_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 418
+      },
+      {
+        "name": "state_seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 622
+      },
+      {
+        "name": "comparison_summary",
+        "rows": 9,
+        "columns": 3,
+        "logical_memory_bytes": 2946
+      },
+      {
+        "name": "df_features",
+        "rows": 15505,
+        "columns": 44,
+        "logical_memory_bytes": 17096924
+      },
+      {
+        "name": "df_encoded",
+        "rows": 15505,
+        "columns": 28,
+        "logical_memory_bytes": 3597160
+      },
+      {
+        "name": "df_pipeline",
+        "rows": 15505,
+        "columns": 48,
+        "logical_memory_bytes": 17593084
+      },
+      {
+        "name": "X_numeric",
+        "rows": 15505,
+        "columns": 25,
+        "logical_memory_bytes": 3225040
+      },
+      {
+        "name": "X_categorical",
+        "rows": 15505,
+        "columns": 28,
+        "logical_memory_bytes": 3597160
+      },
+      {
+        "name": "X_unfilled",
+        "rows": 15505,
+        "columns": 53,
+        "logical_memory_bytes": 6698160
+      },
+      {
+        "name": "order_ids",
+        "rows": 15505,
+        "columns": 1,
+        "logical_memory_bytes": 1503985
+      },
+      {
+        "name": "feature_medians",
+        "rows": 53,
+        "columns": 1,
+        "logical_memory_bytes": 6548
+      },
+      {
+        "name": "imputation_values",
+        "rows": 53,
+        "columns": 2,
+        "logical_memory_bytes": 4576
+      },
+      {
+        "name": "X",
+        "rows": 15505,
+        "columns": 53,
+        "logical_memory_bytes": 6698160
+      }
+    ]
+  },
+  {
+    "elapsed_seconds": 0.2273173329886049,
+    "start_rss_bytes": 626081792,
+    "peak_rss_bytes": 626114560,
+    "peak_rss_increase_bytes": 32768,
+    "peak_temporary_bytes": 169089,
+    "sampling_overhead_seconds": 0.1934672499774024,
+    "sample_interval_seconds": 0.01,
+    "maximum_sample_gap_seconds": 0.145507707959041,
+    "samples": 4,
+    "stage": "17_resources",
+    "calculation_seconds": 0.06439850002061576,
+    "export_seconds": 0.004441707977093756,
+    "inventory_seconds": 0.1584764999570325,
+    "saved_bytes": 1798,
+    "retained_logical_bytes": 215207126,
+    "output_logical_bytes": 1800,
+    "intermediates": [
+      {
+        "name": "tables",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 676
+      },
+      {
+        "name": "item_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "payment_counts",
+        "rows": 1,
+        "columns": 2,
+        "logical_memory_bytes": 148
+      },
+      {
+        "name": "source_totals",
+        "rows": 3,
+        "columns": 1,
+        "logical_memory_bytes": 333
+      },
+      {
+        "name": "key_audit",
+        "rows": 15,
+        "columns": 2,
+        "logical_memory_bytes": 1517
+      },
+      {
+        "name": "orphans",
+        "rows": 893,
+        "columns": 1,
+        "logical_memory_bytes": 79609
+      },
+      {
+        "name": "orphan_recovery",
+        "rows": 3,
+        "columns": 5,
+        "logical_memory_bytes": 679
+      },
+      {
+        "name": "master_orders",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "master_memory",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21834492
+      },
+      {
+        "name": "master_pushdown",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "df_profile",
+        "rows": 20000,
+        "columns": 25,
+        "logical_memory_bytes": 21832928
+      },
+      {
+        "name": "anomaly_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 592
+      },
+      {
+        "name": "check_negatives",
+        "rows": 5,
+        "columns": 3,
+        "logical_memory_bytes": 657
+      },
+      {
+        "name": "items_raw",
+        "rows": 22662,
+        "columns": 5,
+        "logical_memory_bytes": 2742234
+      },
+      {
+        "name": "outlier_df",
+        "rows": 5,
+        "columns": 8,
+        "logical_memory_bytes": 782
+      },
+      {
+        "name": "cleaned_series",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1321477
+      },
+      {
+        "name": "text_audit_df",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1174
+      },
+      {
+        "name": "date_null_df",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 584
+      },
+      {
+        "name": "missing_delivery_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "status_of_missing",
+        "rows": 13,
+        "columns": 1,
+        "logical_memory_bytes": 1527
+      },
+      {
+        "name": "date_parse_audit",
+        "rows": 5,
+        "columns": 5,
+        "logical_memory_bytes": 1144
+      },
+      {
+        "name": "raw",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 1513092
+      },
+      {
+        "name": "naive",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "explicit",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "still_bad",
+        "rows": 170,
+        "columns": 1,
+        "logical_memory_bytes": 14280
+      },
+      {
+        "name": "df_clean",
+        "rows": 20000,
+        "columns": 37,
+        "logical_memory_bytes": 18789722
+      },
+      {
+        "name": "source_items",
+        "rows": 22662,
+        "columns": 23,
+        "logical_memory_bytes": 10265121
+      },
+      {
+        "name": "valid_price",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid_freight",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "price_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "freight_medians",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "valid",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "median",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "repaired",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 181428
+      },
+      {
+        "name": "clean_item_summary",
+        "rows": 19858,
+        "columns": 11,
+        "logical_memory_bytes": 3348260
+      },
+      {
+        "name": "local",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "unknown",
+        "rows": 22662,
+        "columns": 1,
+        "logical_memory_bytes": 45456
+      },
+      {
+        "name": "has_local",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "has_unknown",
+        "rows": 19858,
+        "columns": 1,
+        "logical_memory_bytes": 2335502
+      },
+      {
+        "name": "chronology_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "missing_outcome_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unknown_status_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "exclusion_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "calendar_labels",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 160132
+      },
+      {
+        "name": "no_items_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "unresolved_amount_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "feature_eligible_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "anomaly_mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20132
+      },
+      {
+        "name": "df_labeled",
+        "rows": 15940,
+        "columns": 41,
+        "logical_memory_bytes": 17200834
+      },
+      {
+        "name": "audit_df",
+        "rows": 4,
+        "columns": 3,
+        "logical_memory_bytes": 552
+      },
+      {
+        "name": "feature_audit_df",
+        "rows": 3,
+        "columns": 3,
+        "logical_memory_bytes": 417
+      },
+      {
+        "name": "item_repair_audit",
+        "rows": 2,
+        "columns": 4,
+        "logical_memory_bytes": 306
+      },
+      {
+        "name": "mask",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 40132
+      },
+      {
+        "name": "grouped",
+        "rows": 14724,
+        "columns": 2,
+        "logical_memory_bytes": 1111810
+      },
+      {
+        "name": "summary",
+        "rows": 28,
+        "columns": 5,
+        "logical_memory_bytes": 5177
+      },
+      {
+        "name": "sensitivity_df",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 814
+      },
+      {
+        "name": "state_sensitivity",
+        "rows": 168,
+        "columns": 5,
+        "logical_memory_bytes": 29170
+      },
+      {
+        "name": "late_orders_df",
+        "rows": 1083,
+        "columns": 38,
+        "logical_memory_bytes": 1026706
+      },
+      {
+        "name": "delay",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 17328
+      },
+      {
+        "name": "delay_bands",
+        "rows": 1083,
+        "columns": 1,
+        "logical_memory_bytes": 10247
+      },
+      {
+        "name": "delay_band_table",
+        "rows": 5,
+        "columns": 2,
+        "logical_memory_bytes": 585
+      },
+      {
+        "name": "window_summary",
+        "rows": 2,
+        "columns": 5,
+        "logical_memory_bytes": 329
+      },
+      {
+        "name": "window_rates",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 1099
+      },
+      {
+        "name": "short",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "known_window",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "longer",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "window_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 429
+      },
+      {
+        "name": "vals",
+        "rows": 14905,
+        "columns": 1,
+        "logical_memory_bytes": 238480
+      },
+      {
+        "name": "state_perf",
+        "rows": 28,
+        "columns": 9,
+        "logical_memory_bytes": 6982
+      },
+      {
+        "name": "state_perf_filtered",
+        "rows": 22,
+        "columns": 9,
+        "logical_memory_bytes": 5431
+      },
+      {
+        "name": "top_problem_states",
+        "rows": 15,
+        "columns": 9,
+        "logical_memory_bytes": 3680
+      },
+      {
+        "name": "y",
+        "rows": 15505,
+        "columns": 1,
+        "logical_memory_bytes": 248080
+      },
+      {
+        "name": "priority_states",
+        "rows": 8,
+        "columns": 1,
+        "logical_memory_bytes": 536
+      },
+      {
+        "name": "photo_grouped",
+        "rows": 10,
+        "columns": 7,
+        "logical_memory_bytes": 1262
+      },
+      {
+        "name": "photo_band_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "photo_band_all",
+        "rows": 20000,
+        "columns": 1,
+        "logical_memory_bytes": 20311
+      },
+      {
+        "name": "nd",
+        "rows": 20000,
+        "columns": 2,
+        "logical_memory_bytes": 180311
+      },
+      {
+        "name": "nondelivery_rates",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 605
+      },
+      {
+        "name": "payment_grouped",
+        "rows": 5,
+        "columns": 7,
+        "logical_memory_bytes": 864
+      },
+      {
+        "name": "local_grouped",
+        "rows": 3,
+        "columns": 7,
+        "logical_memory_bytes": 648
+      },
+      {
+        "name": "known_geo",
+        "rows": 2,
+        "columns": 7,
+        "logical_memory_bytes": 477
+      },
+      {
+        "name": "cross",
+        "rows": 6,
+        "columns": 1,
+        "logical_memory_bytes": 826
+      },
+      {
+        "name": "local_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 450
+      },
+      {
+        "name": "late_with_weight",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "scatter_df",
+        "rows": 1012,
+        "columns": 41,
+        "logical_memory_bytes": 1090618
+      },
+      {
+        "name": "seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 626
+      },
+      {
+        "name": "one",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "two",
+        "rows": 15940,
+        "columns": 1,
+        "logical_memory_bytes": 143460
+      },
+      {
+        "name": "seller_comparison",
+        "rows": 1,
+        "columns": 3,
+        "logical_memory_bytes": 418
+      },
+      {
+        "name": "state_seller_analysis",
+        "rows": 4,
+        "columns": 7,
+        "logical_memory_bytes": 622
+      },
+      {
+        "name": "comparison_summary",
+        "rows": 9,
+        "columns": 3,
+        "logical_memory_bytes": 2946
+      },
+      {
+        "name": "df_features",
+        "rows": 15505,
+        "columns": 44,
+        "logical_memory_bytes": 17096924
+      },
+      {
+        "name": "df_encoded",
+        "rows": 15505,
+        "columns": 28,
+        "logical_memory_bytes": 3597160
+      },
+      {
+        "name": "df_pipeline",
+        "rows": 15505,
+        "columns": 48,
+        "logical_memory_bytes": 17593084
+      },
+      {
+        "name": "X_numeric",
+        "rows": 15505,
+        "columns": 25,
+        "logical_memory_bytes": 3225040
+      },
+      {
+        "name": "X_categorical",
+        "rows": 15505,
+        "columns": 28,
+        "logical_memory_bytes": 3597160
+      },
+      {
+        "name": "X_unfilled",
+        "rows": 15505,
+        "columns": 53,
+        "logical_memory_bytes": 6698160
+      },
+      {
+        "name": "order_ids",
+        "rows": 15505,
+        "columns": 1,
+        "logical_memory_bytes": 1503985
+      },
+      {
+        "name": "feature_medians",
+        "rows": 53,
+        "columns": 1,
+        "logical_memory_bytes": 6548
+      },
+      {
+        "name": "imputation_values",
+        "rows": 53,
+        "columns": 2,
+        "logical_memory_bytes": 4576
+      },
+      {
+        "name": "X",
+        "rows": 15505,
+        "columns": 53,
+        "logical_memory_bytes": 6698160
+      },
+      {
+        "name": "resource_df",
+        "rows": 10,
+        "columns": 3,
+        "logical_memory_bytes": 1023
+      },
+      {
+        "name": "object_sizes",
+        "rows": 6,
+        "columns": 4,
+        "logical_memory_bytes": 777
+      }
+    ]
+  }
+]

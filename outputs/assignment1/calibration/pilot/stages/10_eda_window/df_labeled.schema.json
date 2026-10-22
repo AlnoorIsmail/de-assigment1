@@ -1,0 +1,248 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_status",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_purchase_timestamp",
+      "dtype": "datetime64[ns]",
+      "encoding": "datetime",
+      "nullable": false
+    },
+    {
+      "name": "order_approved_at",
+      "dtype": "datetime64[ns]",
+      "encoding": "datetime",
+      "nullable": true
+    },
+    {
+      "name": "order_delivered_carrier_date",
+      "dtype": "datetime64[ns]",
+      "encoding": "datetime",
+      "nullable": true
+    },
+    {
+      "name": "order_delivered_customer_date",
+      "dtype": "datetime64[ns]",
+      "encoding": "datetime",
+      "nullable": false
+    },
+    {
+      "name": "order_estimated_delivery_date",
+      "dtype": "datetime64[ns]",
+      "encoding": "datetime",
+      "nullable": false
+    },
+    {
+      "name": "customer_state",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "customer_city",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_items",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "basket_price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_freight",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_sellers",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_seller_cities",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_seller_states",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "seller_states_list",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_cities_list",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_photos",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "selected_category",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "involves_local_seller",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_payment_value",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_installments",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "selected_payment_type",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "invalid_item_amount",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "basket_price_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_freight_repaired",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "price_unresolved",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "freight_unresolved",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_weight_missing",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "product_photos_missing",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "mean_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "delivered_after_estimate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "exclusion_reason",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "feature_eligible",
+      "dtype": "boolean",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "feature_exclusion_reason",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "delay_days",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "promised_window_days",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "window_band",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": true
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One labeled order with delay and promised-window features",
+  "row_order": "unchanged from notebook"
+}

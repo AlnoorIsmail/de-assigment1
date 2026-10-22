@@ -1,0 +1,6 @@
+Column,Missing in source,Unparsed (old method),Unparsed (explicit formats),Examples still unparsed
+order_purchase_timestamp,17,11,11,"[""2018-02-30 10:00:00"", ""2018-02-30 10:00:00"", ""2018-02-30 10:00:00""]"
+order_approved_at,27,15,15,"[""2018-02-30 10:00:00"", ""2018-02-30 10:00:00"", ""2018-02-30 10:00:00""]"
+order_delivered_carrier_date,52,11,11,"[""2018-02-30 10:00:00"", ""2018-02-30 10:00:00"", ""2018-02-30 10:00:00""]"
+order_delivered_customer_date,68,11,11,"[""2018-02-30 10:00:00"", ""2018-02-30 10:00:00"", ""2018-02-30 10:00:00""]"
+order_estimated_delivery_date,20,18,18,"[""2018-02-30 10:00:00"", ""2018-02-30 10:00:00"", ""2018-02-30 10:00:00""]"

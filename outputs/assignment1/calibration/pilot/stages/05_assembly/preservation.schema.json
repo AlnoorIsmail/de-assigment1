@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "measure",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "source",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "assembled",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One preserved measure: source total versus the actual SQL assembly",
+  "row_order": "unchanged from notebook"
+}

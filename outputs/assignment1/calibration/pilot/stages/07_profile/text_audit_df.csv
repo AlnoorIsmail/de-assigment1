@@ -1,0 +1,6 @@
+Column,Raw Unique Count,Cleaned Unique Count (Strip/Lower),Discrepancy (Potential Formatting Issues),Sample Values (Raw)
+customer_state,45,27,18,"[""SP"", ""MG"", ""RJ"", ""PR"", ""ES""]"
+customer_city,623,579,44,"[""sao jose dos campos"", ""sao paulo"", ""juiz de fora"", ""maua"", ""barueri""]"
+selected_category,91,89,2,"[""health_beauty"", ""sports_leisure"", ""furniture_decor"", ""unmapped"", ""luggage_accessories""]"
+selected_payment_type,8,5,3,"[""credit_card"", ""unclassified_payment"", ""boleto"", "" BOLETO  "", "" CREDIT_CARD  ""]"
+order_status,10,8,2,"[""  DELIVERED "", ""canceled"", ""delivered"", ""shipped"", ""not_reported""]"

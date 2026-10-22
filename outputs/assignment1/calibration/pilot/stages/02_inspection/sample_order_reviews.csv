@@ -1,0 +1,3 @@
+review_id,order_id,review_score,review_comment_title,review_comment_message,review_creation_date,review_answer_timestamp
+27abf489a0e46ad7dfa4dbdac61b188c,0045e3085f083f0f38d24bb3f22e6593,5,\N,\N,2017-08-30T00:00:00,2018-02-30T10:00:00
+708d3528f7c13301bdad8f80b845ea64,006df90050498994d670b40da4651d22,5,\N,\N,2018-08-16T00:00:00,2018-08-17T12:05:23

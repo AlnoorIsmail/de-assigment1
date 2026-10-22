@@ -1,0 +1,6 @@
+Column,Raw Unique Count,Cleaned Unique Count (Strip/Lower),Discrepancy (Potential Formatting Issues),Sample Values (Raw)
+customer_state,53,28,25,"[""GO"", ""RS"", ""SP"", ""RR"", ""PE""]"
+customer_city,2575,2258,317,"[""vianopolis"", ""faxinalzinho"", ""hortolandia"", ""boa vista"", ""sao paulo""]"
+selected_category,120,117,3,"[""auto"", ""furniture_decor"", ""construction_tools_construction"", ""bed_bath_table"", ""garden_tools""]"
+selected_payment_type,9,5,4,"[""credit_card"", ""boleto"", "" CREDIT_CARD  "", ""debit_card"", "" BOLETO  ""]"
+order_status,14,9,5,"[""delivered"", ""canceled"", ""not_reported"", ""  DELIVERED "", ""unavailable""]"

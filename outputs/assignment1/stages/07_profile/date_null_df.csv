@@ -1,0 +1,6 @@
+Timestamp Column,Missing Count
+order_purchase_timestamp,168
+order_approved_at,199
+order_delivered_carrier_date,483
+order_delivered_customer_date,714
+order_estimated_delivery_date,160

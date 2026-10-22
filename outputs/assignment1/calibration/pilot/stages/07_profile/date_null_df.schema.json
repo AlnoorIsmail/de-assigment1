@@ -1,0 +1,20 @@
+{
+  "columns": [
+    {
+      "name": "Timestamp Column",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Missing Count",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One profiled timestamp column",
+  "row_order": "unchanged from notebook"
+}

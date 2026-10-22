@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "name": "customer_state",
+      "dtype": "string",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "count",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "sum",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "mean",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Policy",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One inclusion policy and customer-state group",
+  "row_order": "unchanged from notebook"
+}

@@ -1,0 +1,7 @@
+Policy,Orders,Late_Orders,Late_Rate
+Dates present only (not reliable),1856,108,0.05818965517241379
+Main analysis: reliable outcomes,1597,95,0.059486537257357544
+Complete original amounts,1465,91,0.0621160409556314
+Repaired amounts: feature eligible,1527,94,0.06155861165684348
+"Main analysis, approval recorded",1559,92,0.059012187299550996
+"Main analysis, all item weights recorded",1447,85,0.05874222529371113

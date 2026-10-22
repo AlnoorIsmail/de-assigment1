@@ -1,0 +1,26 @@
+{
+  "columns": [
+    {
+      "name": "Comparison",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Result",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Finding",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "Cross-state against local fulfilment, compared by 95% Wilson intervals",
+  "row_order": "unchanged from notebook"
+}

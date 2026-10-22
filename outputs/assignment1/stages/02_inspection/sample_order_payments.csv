@@ -1,0 +1,3 @@
+order_id,payment_sequential,payment_type,payment_installments,payment_value
+25e8ea4e93396b6fa0d3dd708e76c1bd,1,credit_card,1,-6571.0
+771ee386b001f06208a7419e4fc1bbd7,1,credit_card,1,\N

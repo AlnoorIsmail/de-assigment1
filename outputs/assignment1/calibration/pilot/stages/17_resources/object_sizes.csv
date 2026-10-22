@@ -1,0 +1,7 @@
+Object,Rows,Columns,In-memory MiB (deep)
+master_orders (assembled),2000,25,2.08
+source_items (item level),2270,23,0.98
+"df_clean (all orders, cleaned)",2000,37,1.79
+df_labeled (labelled cohort),1597,41,1.64
+X_unfilled (features before fill),1527,53,0.63
+X (final features),1527,53,0.63

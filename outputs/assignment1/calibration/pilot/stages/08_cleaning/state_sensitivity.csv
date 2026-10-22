@@ -1,0 +1,163 @@
+customer_state,count,sum,mean,Policy
+ac,3,0.0,0.0,Dates present only (not reliable)
+al,9,2.0,0.2222222222222222,Dates present only (not reliable)
+am,5,0.0,0.0,Dates present only (not reliable)
+ap,1,0.0,0.0,Dates present only (not reliable)
+ba,53,5.0,0.09433962264150944,Dates present only (not reliable)
+ce,18,3.0,0.16666666666666666,Dates present only (not reliable)
+df,29,0.0,0.0,Dates present only (not reliable)
+es,33,2.0,0.06060606060606061,Dates present only (not reliable)
+go,31,1.0,0.03225806451612903,Dates present only (not reliable)
+ma,18,4.0,0.2222222222222222,Dates present only (not reliable)
+mg,197,9.0,0.04568527918781726,Dates present only (not reliable)
+ms,11,3.0,0.2727272727272727,Dates present only (not reliable)
+mt,18,1.0,0.05555555555555555,Dates present only (not reliable)
+pa,16,1.0,0.0625,Dates present only (not reliable)
+pb,10,1.0,0.1,Dates present only (not reliable)
+pe,27,3.0,0.1111111111111111,Dates present only (not reliable)
+pi,11,2.0,0.18181818181818182,Dates present only (not reliable)
+pr,79,1.0,0.012658227848101266,Dates present only (not reliable)
+rj,226,23.0,0.10176991150442478,Dates present only (not reliable)
+rn,9,1.0,0.1111111111111111,Dates present only (not reliable)
+ro,5,1.0,0.2,Dates present only (not reliable)
+rs,80,5.0,0.0625,Dates present only (not reliable)
+sc,64,4.0,0.0625,Dates present only (not reliable)
+se,8,3.0,0.375,Dates present only (not reliable)
+sp,720,22.0,0.030555555555555555,Dates present only (not reliable)
+to,6,1.0,0.16666666666666666,Dates present only (not reliable)
+unknown,169,10.0,0.05917159763313609,Dates present only (not reliable)
+ac,3,0.0,0.0,Main analysis: reliable outcomes
+al,8,2.0,0.25,Main analysis: reliable outcomes
+am,4,0.0,0.0,Main analysis: reliable outcomes
+ap,1,0.0,0.0,Main analysis: reliable outcomes
+ba,44,5.0,0.11363636363636363,Main analysis: reliable outcomes
+ce,15,2.0,0.13333333333333333,Main analysis: reliable outcomes
+df,23,0.0,0.0,Main analysis: reliable outcomes
+es,24,2.0,0.08333333333333333,Main analysis: reliable outcomes
+go,26,1.0,0.038461538461538464,Main analysis: reliable outcomes
+ma,15,4.0,0.26666666666666666,Main analysis: reliable outcomes
+mg,171,8.0,0.04678362573099415,Main analysis: reliable outcomes
+ms,10,2.0,0.2,Main analysis: reliable outcomes
+mt,16,1.0,0.0625,Main analysis: reliable outcomes
+pa,11,0.0,0.0,Main analysis: reliable outcomes
+pb,9,1.0,0.1111111111111111,Main analysis: reliable outcomes
+pe,24,3.0,0.125,Main analysis: reliable outcomes
+pi,5,1.0,0.2,Main analysis: reliable outcomes
+pr,70,1.0,0.014285714285714285,Main analysis: reliable outcomes
+rj,191,22.0,0.11518324607329843,Main analysis: reliable outcomes
+rn,8,1.0,0.125,Main analysis: reliable outcomes
+ro,4,0.0,0.0,Main analysis: reliable outcomes
+rs,74,5.0,0.06756756756756757,Main analysis: reliable outcomes
+sc,53,3.0,0.05660377358490566,Main analysis: reliable outcomes
+se,7,2.0,0.2857142857142857,Main analysis: reliable outcomes
+sp,623,20.0,0.03210272873194221,Main analysis: reliable outcomes
+to,5,1.0,0.2,Main analysis: reliable outcomes
+unknown,153,8.0,0.05228758169934641,Main analysis: reliable outcomes
+ac,2,0.0,0.0,Complete original amounts
+al,8,2.0,0.25,Complete original amounts
+am,3,0.0,0.0,Complete original amounts
+ap,1,0.0,0.0,Complete original amounts
+ba,41,5.0,0.12195121951219512,Complete original amounts
+ce,13,2.0,0.15384615384615385,Complete original amounts
+df,23,0.0,0.0,Complete original amounts
+es,21,2.0,0.09523809523809523,Complete original amounts
+go,24,1.0,0.041666666666666664,Complete original amounts
+ma,14,4.0,0.2857142857142857,Complete original amounts
+mg,149,8.0,0.053691275167785234,Complete original amounts
+ms,9,2.0,0.2222222222222222,Complete original amounts
+mt,16,1.0,0.0625,Complete original amounts
+pa,11,0.0,0.0,Complete original amounts
+pb,9,1.0,0.1111111111111111,Complete original amounts
+pe,23,3.0,0.13043478260869565,Complete original amounts
+pi,5,1.0,0.2,Complete original amounts
+pr,65,1.0,0.015384615384615385,Complete original amounts
+rj,171,21.0,0.12280701754385964,Complete original amounts
+rn,6,0.0,0.0,Complete original amounts
+ro,3,0.0,0.0,Complete original amounts
+rs,70,4.0,0.05714285714285714,Complete original amounts
+sc,50,3.0,0.06,Complete original amounts
+se,6,2.0,0.3333333333333333,Complete original amounts
+sp,578,19.0,0.0328719723183391,Complete original amounts
+to,5,1.0,0.2,Complete original amounts
+unknown,139,8.0,0.05755395683453238,Complete original amounts
+ac,2,0.0,0.0,Repaired amounts: feature eligible
+al,8,2.0,0.25,Repaired amounts: feature eligible
+am,4,0.0,0.0,Repaired amounts: feature eligible
+ap,1,0.0,0.0,Repaired amounts: feature eligible
+ba,43,5.0,0.11627906976744186,Repaired amounts: feature eligible
+ce,13,2.0,0.15384615384615385,Repaired amounts: feature eligible
+df,23,0.0,0.0,Repaired amounts: feature eligible
+es,21,2.0,0.09523809523809523,Repaired amounts: feature eligible
+go,26,1.0,0.038461538461538464,Repaired amounts: feature eligible
+ma,14,4.0,0.2857142857142857,Repaired amounts: feature eligible
+mg,160,8.0,0.05,Repaired amounts: feature eligible
+ms,10,2.0,0.2,Repaired amounts: feature eligible
+mt,16,1.0,0.0625,Repaired amounts: feature eligible
+pa,11,0.0,0.0,Repaired amounts: feature eligible
+pb,9,1.0,0.1111111111111111,Repaired amounts: feature eligible
+pe,23,3.0,0.13043478260869565,Repaired amounts: feature eligible
+pi,5,1.0,0.2,Repaired amounts: feature eligible
+pr,67,1.0,0.014925373134328358,Repaired amounts: feature eligible
+rj,181,22.0,0.12154696132596685,Repaired amounts: feature eligible
+rn,6,0.0,0.0,Repaired amounts: feature eligible
+ro,3,0.0,0.0,Repaired amounts: feature eligible
+rs,73,5.0,0.0684931506849315,Repaired amounts: feature eligible
+sc,51,3.0,0.058823529411764705,Repaired amounts: feature eligible
+se,6,2.0,0.3333333333333333,Repaired amounts: feature eligible
+sp,606,20.0,0.033003300330033,Repaired amounts: feature eligible
+to,5,1.0,0.2,Repaired amounts: feature eligible
+unknown,140,8.0,0.05714285714285714,Repaired amounts: feature eligible
+ac,3,0.0,0.0,"Main analysis, approval recorded"
+al,8,2.0,0.25,"Main analysis, approval recorded"
+am,4,0.0,0.0,"Main analysis, approval recorded"
+ap,1,0.0,0.0,"Main analysis, approval recorded"
+ba,42,5.0,0.11904761904761904,"Main analysis, approval recorded"
+ce,15,2.0,0.13333333333333333,"Main analysis, approval recorded"
+df,23,0.0,0.0,"Main analysis, approval recorded"
+es,21,2.0,0.09523809523809523,"Main analysis, approval recorded"
+go,26,1.0,0.038461538461538464,"Main analysis, approval recorded"
+ma,15,4.0,0.26666666666666666,"Main analysis, approval recorded"
+mg,168,8.0,0.047619047619047616,"Main analysis, approval recorded"
+ms,10,2.0,0.2,"Main analysis, approval recorded"
+mt,16,1.0,0.0625,"Main analysis, approval recorded"
+pa,11,0.0,0.0,"Main analysis, approval recorded"
+pb,9,1.0,0.1111111111111111,"Main analysis, approval recorded"
+pe,24,3.0,0.125,"Main analysis, approval recorded"
+pi,5,1.0,0.2,"Main analysis, approval recorded"
+pr,67,1.0,0.014925373134328358,"Main analysis, approval recorded"
+rj,184,21.0,0.11413043478260869,"Main analysis, approval recorded"
+rn,7,1.0,0.14285714285714285,"Main analysis, approval recorded"
+ro,4,0.0,0.0,"Main analysis, approval recorded"
+rs,73,4.0,0.0547945205479452,"Main analysis, approval recorded"
+sc,53,3.0,0.05660377358490566,"Main analysis, approval recorded"
+se,7,2.0,0.2857142857142857,"Main analysis, approval recorded"
+sp,609,19.0,0.031198686371100164,"Main analysis, approval recorded"
+to,5,1.0,0.2,"Main analysis, approval recorded"
+unknown,149,8.0,0.053691275167785234,"Main analysis, approval recorded"
+ac,3,0.0,0.0,"Main analysis, all item weights recorded"
+al,7,2.0,0.2857142857142857,"Main analysis, all item weights recorded"
+am,4,0.0,0.0,"Main analysis, all item weights recorded"
+ap,1,0.0,0.0,"Main analysis, all item weights recorded"
+ba,40,5.0,0.125,"Main analysis, all item weights recorded"
+ce,14,2.0,0.14285714285714285,"Main analysis, all item weights recorded"
+df,22,0.0,0.0,"Main analysis, all item weights recorded"
+es,22,2.0,0.09090909090909091,"Main analysis, all item weights recorded"
+go,23,1.0,0.043478260869565216,"Main analysis, all item weights recorded"
+ma,12,2.0,0.16666666666666666,"Main analysis, all item weights recorded"
+mg,157,7.0,0.044585987261146494,"Main analysis, all item weights recorded"
+ms,9,2.0,0.2222222222222222,"Main analysis, all item weights recorded"
+mt,14,1.0,0.07142857142857142,"Main analysis, all item weights recorded"
+pa,10,0.0,0.0,"Main analysis, all item weights recorded"
+pb,7,1.0,0.14285714285714285,"Main analysis, all item weights recorded"
+pe,22,3.0,0.13636363636363635,"Main analysis, all item weights recorded"
+pi,5,1.0,0.2,"Main analysis, all item weights recorded"
+pr,62,1.0,0.016129032258064516,"Main analysis, all item weights recorded"
+rj,175,19.0,0.10857142857142857,"Main analysis, all item weights recorded"
+rn,7,1.0,0.14285714285714285,"Main analysis, all item weights recorded"
+ro,4,0.0,0.0,"Main analysis, all item weights recorded"
+rs,69,5.0,0.07246376811594203,"Main analysis, all item weights recorded"
+sc,51,3.0,0.058823529411764705,"Main analysis, all item weights recorded"
+se,7,2.0,0.2857142857142857,"Main analysis, all item weights recorded"
+sp,564,18.0,0.031914893617021274,"Main analysis, all item weights recorded"
+to,3,0.0,0.0,"Main analysis, all item weights recorded"
+unknown,133,7.0,0.05263157894736842,"Main analysis, all item weights recorded"

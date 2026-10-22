@@ -1,0 +1,38 @@
+{
+  "columns": [
+    {
+      "name": "Column",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Missing in source",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Unparsed (old method)",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Unparsed (explicit formats)",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Examples still unparsed",
+      "dtype": "object",
+      "encoding": "json",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One timestamp parse audit",
+  "row_order": "unchanged from notebook"
+}

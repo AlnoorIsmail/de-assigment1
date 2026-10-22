@@ -1,0 +1,158 @@
+{
+  "columns": [
+    {
+      "name": "order_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "customer_id",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_status",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "order_purchase_timestamp",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "order_approved_at",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "order_delivered_carrier_date",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "order_delivered_customer_date",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "order_estimated_delivery_date",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "customer_state",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "customer_city",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_items",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "basket_price",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_freight",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_unique_sellers",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_unique_seller_cities",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "total_unique_seller_states",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_states_list",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "seller_cities_list",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_weight_g",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "max_product_photos",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "selected_category",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": true
+    },
+    {
+      "name": "involves_local_seller",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "total_payment_value",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "max_installments",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "selected_payment_type",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One original order with aggregated child records",
+  "row_order": "unchanged from notebook"
+}

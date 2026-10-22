@@ -1,0 +1,4 @@
+total_unique_sellers,Total_Orders,Late_Orders,Late_Rate,CI_Lower,CI_Upper,CI_Note
+1,1567,95.0,0.06062539885130823,0.049849619944674926,0.07355021871506007,
+2,29,0.0,0.0,\N,\N,too few events: interval suppressed
+3,1,0.0,0.0,\N,\N,too few events: interval suppressed

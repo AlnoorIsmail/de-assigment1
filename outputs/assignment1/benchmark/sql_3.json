@@ -1,0 +1,16 @@
+{
+  "elapsed_seconds": 0.15029737498844042,
+  "start_rss_bytes": 72941568,
+  "peak_rss_bytes": 124108800,
+  "peak_rss_increase_bytes": 51167232,
+  "peak_temporary_bytes": 0,
+  "sampling_overhead_seconds": 0.015182750998064876,
+  "sample_interval_seconds": 0.01,
+  "maximum_sample_gap_seconds": 0.01324629201553762,
+  "samples": 13,
+  "approach": "sql",
+  "rows": 20000,
+  "columns": 25,
+  "logical_output_bytes": 21832928,
+  "equivalent": true
+}

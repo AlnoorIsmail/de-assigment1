@@ -1,0 +1,50 @@
+{
+  "columns": [
+    {
+      "name": "photo_band",
+      "dtype": "category",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Total_Orders",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Not_Delivered",
+      "dtype": "int64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "Not_Delivered_Rate",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "CI_Lower",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "CI_Upper",
+      "dtype": "float64",
+      "encoding": "scalar",
+      "nullable": false
+    },
+    {
+      "name": "CI_Note",
+      "dtype": "str",
+      "encoding": "scalar",
+      "nullable": false
+    }
+  ],
+  "null_marker": "\\N",
+  "index_saved": false,
+  "row_meaning": "One photo band and all-order status outcomes",
+  "row_order": "unchanged from notebook"
+}
